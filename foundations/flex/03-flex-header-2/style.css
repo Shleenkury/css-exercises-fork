@@ -8,7 +8,10 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.header {display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -43,6 +46,9 @@ a {
   color: rebeccapurple;
 }
 
-ul {
-  list-style-type: none;
+ul {display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin-right: auto;
+}
 }
